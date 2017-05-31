@@ -1,7 +1,7 @@
-FROM gliderlabs/alpine:3.3
-MAINTAINER Bruno Celeste <bruno@coconut.co>
+FROM gliderlabs/alpine:latest
+MAINTAINER Dirk Lüsebrink <crux@artcom.de>
 
-ENV FFMPEG_VERSION=3.0.2
+ENV FFMPEG_VERSION=3.3.1
 
 WORKDIR /tmp/ffmpeg
 
@@ -22,3 +22,4 @@ RUN apk add --update build-base curl nasm tar bzip2 \
   apk del build-base curl tar bzip2 x264 openssl nasm && rm -rf /var/cache/apk/*
 
 ENTRYPOINT ["ffmpeg"]
+CMD ["-version"]

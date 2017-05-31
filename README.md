@@ -1,3 +1,9 @@
+# (Cloned): Updated FFmpeg version and linux build
+
+FFmpeg was updated to 3.3.1 and the alphine set to latest. All the config is still the same.
+
+This is a fork from: https://github.com/opencoconut/ffmpeg
+
 # Minimal FFmpeg Docker image built on Alpine Linux
 
 The image is only **106.7 MB** versus ~350 MB.
