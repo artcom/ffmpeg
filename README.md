@@ -2,7 +2,9 @@
 
 FFmpeg was updated to 3.3.1 and the alphine set to latest. All the config is still the same.
 
-This is a fork from: https://github.com/opencoconut/ffmpeg
+This is just the form from: https://github.com/opencoconut/ffmpeg, original README below the line.
+
+---
 
 # Minimal FFmpeg Docker image built on Alpine Linux
 
